@@ -1,15 +1,22 @@
 body {
-  color: #fff;
+  background-color: white;
+  color: black;
   display: flex;
   justify-content: center;
+}
+
+.container {
+  max-width: 1280px;
+  padding: 0 50px;
+  margin: 0 auto;
 }
 
 .area {
   box-sizing: border-box;
   width: 700px;
   height: 700px;
-  border-collapse: separate; 
-  border-spacing: 10px;
+  border-collapse: separate;
+  border-spacing: 9px;
 }
 
 .area__item {
@@ -32,4 +39,15 @@ body {
 .area__img {
   width: 120px;
   height: 120px;
+}
+
+.cursor {
+  display: none;
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  background-image: url('http://www.rw-designer.com/cursor-extern.php?id=116484');
+  background-repeat: no-repeat;
+  background-size: cover;
+  pointer-events: none;
 }

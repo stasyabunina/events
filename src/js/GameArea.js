@@ -3,10 +3,10 @@ export default class GameArea {
     this._element = element;
   }
 
-  goblinMoves() {
+  init() {
     const goblinImg = document.createElement('img');
     goblinImg.classList.add('area__img');
-    goblinImg.src = 'https://github.com/netology-code/ahj-homeworks/raw/AHJ-50/dom/pic/goblin.png';
+    goblinImg.src = 'goblin.png';
     goblinImg.alt = 'Гоблин';
     const goblinDiv = document.createElement('div');
     goblinDiv.classList.add('area__img-wrapper');
