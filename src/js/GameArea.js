@@ -6,7 +6,7 @@ export default class GameArea {
   init() {
     const goblinImg = document.createElement('img');
     goblinImg.classList.add('area__img');
-    goblinImg.src = 'goblin.png';
+    goblinImg.src = '../img/goblin.png';
     goblinImg.alt = 'Гоблин';
     const goblinDiv = document.createElement('div');
     goblinDiv.classList.add('area__img-wrapper');
