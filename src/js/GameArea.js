@@ -1,3 +1,5 @@
+import mainImg from '../img/goblin.png';
+
 export default class GameArea {
   constructor(element) {
     this._element = element;
@@ -6,7 +8,7 @@ export default class GameArea {
   init() {
     const goblinImg = document.createElement('img');
     goblinImg.classList.add('area__img');
-    goblinImg.src = '../img/goblin.png';
+    goblinImg.src = mainImg;
     goblinImg.alt = 'Гоблин';
     const goblinDiv = document.createElement('div');
     goblinDiv.classList.add('area__img-wrapper');
